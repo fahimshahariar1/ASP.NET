@@ -8,4 +8,29 @@ Which can also be found: https://learn.microsoft.com/en-us/training/modules/blaz
 this is obviously the frontend tutorial there will also be a tutorial or part for backend development.
 Which I will be following soon after finishing this module
 
-in summary what we have learned today is
+in summary, what we have learned today is
+
+Blazor is a modern web framework based on .NET that allows developers to build interactive web applications using HTML, CSS, and C#. It offers a component-based approach for creating reusable UI elements, enabling rapid development and efficient maintenance.
+
+Key features and benefits of Blazor include:
+
+Reusable components: Build web applications using pre-built or custom components for faster development.
+Rich interactivity: Handle UI events and implement component logic using C#.
+Single development stack: Use .NET for both frontend and backend development.
+Efficient rendering: Blazor optimizes UI updates for performance.
+Server and client-side rendering: Choose between server-side rendering for SEO and client-side rendering for interactivity.
+Progressive enhancement: Gradually enhance the user experience of server-rendered applications.
+Interop with JavaScript: Integrate with existing JavaScript libraries and APIs.
+Great tooling: Use Visual Studio or Visual Studio Code for efficient development.
+Cross-platform: Build web, mobile, and desktop applications using Blazor.
+Blazor is well-suited for web development projects that require:
+
+High productivity and efficiency.
+A unified development stack.
+.NET expertise.
+Performance and scalability.
+However, Blazor might not be the best choice if:
+
+Download size and load time are critical.
+Extensive integration with a different frontend framework is needed.
+Support for older web browsers is required.
