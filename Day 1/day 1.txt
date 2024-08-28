@@ -1,2 +1,5 @@
 Asp.net is a very strong web framework for building modern, fast and secure web apps.
   I am starting this module now after the completion of C# learning module. Which you can find here https://github.com/fahimshahariar1/C-sharp-learning-module
+
+For this particular module I am using the tutorials or teaching from the official .net website.
+Which also can be found: https://learn.microsoft.com/en-us/training/modules/blazor-introduction/1-introduction
