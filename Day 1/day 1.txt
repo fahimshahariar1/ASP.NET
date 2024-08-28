@@ -1,5 +1,11 @@
-Asp.net is a very strong web framework for building modern, fast and secure web apps.
-  I am starting this module now after the completion of C# learning module. Which you can find here https://github.com/fahimshahariar1/C-sharp-learning-module
+Asp.net is a robust web framework for building modern, fast, and secure web apps.
+  I am starting this module now after the completion of the C# learning module. Which you can find here https://github.com/fahimshahariar1/C-sharp-learning-module
 
-For this particular module I am using the tutorials or teaching from the official .net website.
-Which also can be found: https://learn.microsoft.com/en-us/training/modules/blazor-introduction/1-introduction
+For this particular module, I am using the tutorials or teaching from the official .net website.
+Which can also be found: https://learn.microsoft.com/en-us/training/modules/blazor-introduction/1-introduction
+
+
+this is obviously the frontend tutorial there will also be a tutorial or part for backend development.
+Which I will be following soon after finishing this module
+
+in summary what we have learned today is
