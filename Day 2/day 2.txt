@@ -29,3 +29,6 @@ The module guides you through creating a simple Blazor application with two page
 Home page: Displays a welcome message.
 Counter page: Implements a counter that increments a value upon button click.
 This exercise demonstrates creating and using Razor components, including modifying components with parameters.
+
+
+
