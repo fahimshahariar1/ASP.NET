@@ -1,0 +1,50 @@
+Data Binding in Blazor
+Rendering C# expressions: Use the @ symbol to display C# expression values in your Razor components.
+Control flow: Implement conditional rendering and loops using C# statements within Razor syntax.
+@if statements for conditional rendering.
+@foreach loops for iterating over data collections.
+Event Handling in Blazor
+Event callbacks: Define methods in your component class to handle UI events.
+@on directives: Specify event handlers for UI elements using @on directives followed by the event name (e.g., @onclick).
+Event arguments: Event handler methods can optionally take an argument containing information about the event (e.g., ChangeEventArgs for input changes).
+Two-Way Data Binding
+@bind directive: Bind UI elements to properties in your component class for two-way data synchronization. Changes in the UI element automatically update the property value, and vice versa.
+Razor Directives
+@ directives: Special keywords in Razor syntax that influence component behavior.
+Types of directives:
+@page: Specifies the route for a component.
+@code: Defines the C# code block for the component.
+@rendermode: Sets the interactive render mode for the component (e.g., InteractiveServer).
+@bind: Establishes two-way data binding between UI elements and component properties.
+Remember: Refer to the Razor syntax reference for a complete list of directives.
+
+Interactive Components
+Static vs. Interactive Rendering:
+By default, Blazor components render statically on the server.
+Interactive components handle UI events and require an interactive render mode.
+Interactive Render Modes:
+InteractiveServer: Renders the component on the server and handles UI events using a WebSocket connection.
+InteractiveWebAssembly: Renders the component client-side using WebAssembly.
+Building a To-Do List App
+This module guides you through creating a basic to-do list application in Blazor:
+
+Create a Todo.razor component:
+Define the component with the @page "/todo" directive and @rendermode InteractiveServer.
+Add To-Do List Page to Nav Menu:
+Update NavMenu.razor to include a link to the to-do list page.
+List To-Do Items:
+Create a TodoItem class to represent to-do items (title, completion status).
+In Todo.razor, maintain a list of TodoItem objects.
+Use a foreach loop to render an unordered list of all to-do items.
+Add To-Do Items:
+Add an input element and a button to Todo.razor for user input.
+Bind the input element to a string variable newTodo.
+Implement an AddTodo method to:
+Check if newTodo has a value.
+Add a new TodoItem to the list based on newTodo.
+Reset newTodo to an empty string.
+Mark To-Do Items as Done:
+Update the list rendering to include checkboxes bound to the IsDone property of each TodoItem.
+Count Incomplete To-Do Items:
+Update the header to display the number of incomplete to-do items using @todos.Count(todo => !todo.IsDone).
+By completing these steps, you'll have a functional Blazor application with a working to-do list. This exercise demonstrates various Blazor concepts, including data binding, event handling, and managing component state.
